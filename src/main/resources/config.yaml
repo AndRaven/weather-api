@@ -1,0 +1,7 @@
+weather:
+  wsdl: "http://localhost:8080/GlobalWeather?wsdl"
+  service: "GlobalWeather"
+  port: "GlobalWeatherSoap"
+  
+application:
+  url: "https://weather-api-development.cloudhub.io/api/v1"

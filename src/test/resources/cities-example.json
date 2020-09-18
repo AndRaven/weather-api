@@ -1,0 +1,36 @@
+[
+	{
+	   "country": "Australia",
+       "city": "Melbourne",
+       "links":
+       	[
+       	  {
+       	    "rel": "self",
+       	    "href": "https://weather-api-development.cloudhub.io/api/v1/cities/Melbourne",
+       	    "method": "GET"
+       	  },
+       	  {
+       	    "rel": "weather",
+       	    "href": "https://weather-api-development.cloudhub.io/api/v1/cities/Melbourne/weather",
+       	    "method": "GET"
+       	  }
+       	]
+	},
+	{
+	   "country": "Australia",
+       "city": "Adelaide",
+       "links":
+       	[
+       	  {
+       	    "rel": "self",
+       	    "href": "https://weather-api-development.cloudhub.io/api/v1/cities/Adelaide",
+       	    "method": "GET"
+       	  },
+       	  {
+       	    "rel": "weather",
+       	    "href": "https://weather-api-development.cloudhub.io/api/v1/cities/Adelaide/weather",
+       	    "method": "GET"
+       	  }
+       	]
+	}
+]

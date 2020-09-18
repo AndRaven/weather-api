@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<types:mule xmlns:types="http://www.mulesoft.org/schema/mule/types">
+  <types:catalog>
+    <types:type name="cities_json" format="json">
+      <types:shape format="weave" example="examples/cities-example.json"><![CDATA[%dw 2.0
+
+type cities_json = Array<{|  country: String,   city: String,   links: Array<{|    rel: String,     href: String,     method: String  |}>
+|}> {"example": "[{\\\"country\\\":\\\"Australia\\\",\\\"city\\\":\\\"Melbourne\\\",\\\"links\\\":[{\\\"rel\\\":\\\"self\\\",\\\"href\\\":\\\"https:\\/\\/weather-api-development.cloudhub.io\\/api\\/v1\\/cities\\/Melbourne\\\",\\\"method\\\":\\\"GET\\\"},{\\\"rel\\\":\\\"weather\\\",\\\"href\\\":\\\"https:\\/\\/weather-api-development.cloudhub.io\\/api\\/v1\\/cities\\/Melbourne\\/weather\\\",\\\"method\\\":\\\"GET\\\"}]},{\\\"country\\\":\\\"Australia\\\",\\\"city\\\":\\\"Adelaide\\\",\\\"links\\\":[{\\\"rel\\\":\\\"self\\\",\\\"href\\\":\\\"https:\\/\\/weather-api-development.cloudhub.io\\/api\\/v1\\/cities\\/Adelaide\\\",\\\"method\\\":\\\"GET\\\"},{\\\"rel\\\":\\\"weather\\\",\\\"href\\\":\\\"https:\\/\\/weather-api-development.cloudhub.io\\/api\\/v1\\/cities\\/Adelaide\\/weather\\\",\\\"method\\\":\\\"GET\\\"}]}]"}
+
+]]></types:shape>
+    </types:type>
+  </types:catalog>
+  <types:enrichment select="#310f13c4-8dd4-448c-a22d-72858e80dc06">
+    <types:processor-declaration>
+      <types:output-event>
+        <types:message>
+          <types:payload type="cities_json"/>
+        </types:message>
+      </types:output-event>
+    </types:processor-declaration>
+  </types:enrichment>
+</types:mule>

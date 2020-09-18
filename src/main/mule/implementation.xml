@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:wsc="http://www.mulesoft.org/schema/mule/wsc" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/wsc http://www.mulesoft.org/schema/mule/wsc/current/mule-wsc.xsd">
+	<flow name="getCitiesFlow" doc:id="3a369d6a-ef08-474a-9df1-b72d4d661ebf" >
+		<set-variable value="#[message.attributes.queryParams.country]" doc:name="Set country" doc:id="1f9f178c-a6b1-4cc9-b08b-ef16f8079849" variableName="country"/>
+		<ee:transform doc:name="prepare XML payload" doc:id="28945098-fe7b-4518-a3b1-d6624b422136" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/xml
+ns web http://www.webserviceX.NET
+---
+{
+	web#GetCitiesByCountry: {
+		CountryName: vars.country
+	}
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<wsc:consume doc:name="call SOAP web service to get cities" doc:id="581c6f0f-016d-4da2-ba8a-fd4e7ea08c64" config-ref="Weather_Service_Consumer_Config" operation="GetCitiesByCountry"/>
+		<ee:transform doc:name="convert to JSON" doc:id="310f13c4-8dd4-448c-a22d-72858e80dc06" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+
+import * from dw::core::URL
+
+fun unescapeInput(inputString) = inputString replace "&lt;" with "<" replace "&gt;" with ">"
+
+var xmlInput = read(unescapeInput(payload.body.GetCitiesByCountryResponse as CData), "application/xml")
+---
+xmlInput.NewDataSet.*Table map ( item , indexOfItem ) -> {
+	city: item.City,
+	country: item.Country,
+	links:
+	[
+		{
+			rel: "self",
+			href: encodeURI(p('application.url') ++ "/cities" ++ item.City),
+			method: "GET"
+			
+		},
+		{
+			rel: "weather",
+			href: encodeURI(p('application.url') ++ "/cities" ++ item.City ++ "/weather"),
+			method: "GET"
+		}
+	]
+	
+	}
+]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="b4c763ae-36f7-44ce-9da0-48aff1c957d2" message="#[payload]"/>
+	</flow>
+	<flow name="getCityWeatherFlow" doc:id="9c5ea0c3-33c6-4012-b27a-e7ccbf0091db" >
+		<ee:transform doc:name="prepare XML payload" doc:id="41f0ec2d-3d7d-427d-9b84-816010afc021" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/xml
+ns web http://www.webserviceX.NET
+---
+{
+	web#GetWeather: {
+		web#CityName: message.attributes.uriParams.name,
+		web#CountryName: message.attributes.queryParams.country
+	}
+}]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<wsc:consume doc:name="call SOAP web service to get weather" doc:id="6520cdb1-e207-4472-b8c2-c4b077d81251" config-ref="Weather_Service_Consumer_Config" operation="GetWeather"/>
+		<ee:transform doc:name="Transform Message" doc:id="55999eea-009b-437f-98a6-3e1586aa53d1" >
+			<ee:message >
+				<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+
+var noCDataInput = payload.body.GetWeatherResponse as CData replace "<![CDATA[" with "" replace "]]" with "" replace ">" with ""
+
+var unescapeInput = noCDataInput replace "&lt;" with "<" replace "&gt;" with ">"
+
+var xmlInput = read(unescapeInput, "application/xml")
+---
+ {
+ 	location: xmlInput.NewDataSet.Location,
+ 	time: xmlInput.NewDataSet.Time,
+ 	wind: xmlInput.NewDataSet.Wind,
+ 	visibility: xmlInput.NewDataSet.Visibility,
+ 	skyConditions: xmlInput.NewDataSet.SkyConditions,
+ 	temperature: xmlInput.NewDataSet.Temperature,
+ 	dewPoint: xmlInput.NewDataSet.DewPoint,
+ 	relatveHumidity: xmlInput.NewDataSet.RelativeHumidity,
+ 	status: xmlInput.NewDataSet.Status
+ }]]></ee:set-payload>
+			</ee:message>
+		</ee:transform>
+		<logger level="INFO" doc:name="Logger" doc:id="ed7bd177-9ba2-477b-b09a-89eb2cd57e2b" message="#[payload]"/>
+	</flow>
+</mule>
