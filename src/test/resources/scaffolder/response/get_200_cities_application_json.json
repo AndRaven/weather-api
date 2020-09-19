@@ -1,0 +1,1058 @@
+[
+  {
+    "city": "Archerfield Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesArcherfield%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesArcherfield%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Amberley Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAmberley%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAmberley%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Alice Springs Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlice%20Springs%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlice%20Springs%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Brisbane Airport M. O",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBrisbane%20Airport%20M.%20O",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBrisbane%20Airport%20M.%20O/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Coolangatta Airport Aws",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCoolangatta%20Airport%20Aws",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCoolangatta%20Airport%20Aws/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Cairns Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCairns%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCairns%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Charleville Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCharleville%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCharleville%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Gladstone",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGladstone",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGladstone/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Longreach Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLongreach%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLongreach%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Mount Isa Amo",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMount%20Isa%20Amo",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMount%20Isa%20Amo/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Mackay Mo",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMackay%20Mo",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMackay%20Mo/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Oakey Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesOakey%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesOakey%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Proserpine Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesProserpine%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesProserpine%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Rockhampton Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesRockhampton%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesRockhampton%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Broome Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBroome%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBroome%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Townsville Amo",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTownsville%20Amo",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTownsville%20Amo/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Weipa City",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWeipa%20City",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWeipa%20City/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Gove Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGove%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGove%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Tennant Creek Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTennant%20Creek%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTennant%20Creek%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Yulara Aws",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesYulara%20Aws",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesYulara%20Aws/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Albury Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlbury%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlbury%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Devonport East",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDevonport%20East",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDevonport%20East/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Goldstream Aws",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGoldstream%20Aws",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGoldstream%20Aws/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "East Sale Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesEast%20Sale%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesEast%20Sale%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Hobart Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesHobart%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesHobart%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Launceston Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLaunceston%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLaunceston%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Laverton Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLaverton%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLaverton%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Moorabbin Airport Aws",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMoorabbin%20Airport%20Aws",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMoorabbin%20Airport%20Aws/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Mount Gambier Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMount%20Gambier%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMount%20Gambier%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Mildura Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMildura%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMildura%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Melbourne Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMelbourne%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMelbourne%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Macquarie Island",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMacquarie%20Island",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMacquarie%20Island/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Wynyard West",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWynyard%20West",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWynyard%20West/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Adelaide Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAdelaide%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAdelaide%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Albany Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlbany%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlbany%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Broken Hill Patton Street",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBroken%20Hill%20Patton%20Street",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBroken%20Hill%20Patton%20Street/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Ceduna Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCeduna%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCeduna%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Derby",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDerby",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDerby/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Darwin Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDarwin%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDarwin%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Bullsbrook Pearce Amo",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBullsbrook%20Pearce%20Amo",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBullsbrook%20Pearce%20Amo/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Edinburgh M. O.",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesEdinburgh%20M.%20O.",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesEdinburgh%20M.%20O./weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Forrest Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesForrest%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesForrest%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Geraldton Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGeraldton%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGeraldton%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Kalgoorlie Boulder Amo",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKalgoorlie%20Boulder%20Amo",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKalgoorlie%20Boulder%20Amo/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Kununurra Kununurra Aws",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKununurra%20Kununurra%20Aws",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKununurra%20Kununurra%20Aws/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Leigh Creek Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLeigh%20Creek%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLeigh%20Creek%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Learmonth Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLearmonth%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLearmonth%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Meekatharra Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMeekatharra%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMeekatharra%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Port Hedland Pardoo",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesPort%20Hedland%20Pardoo",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesPort%20Hedland%20Pardoo/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Parafield Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesParafield%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesParafield%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Belmont Perth Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBelmont%20Perth%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBelmont%20Perth%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Katherine Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKatherine%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKatherine%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Woomera Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWoomera%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWoomera%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Bankstown Airport Aws",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBankstown%20Airport%20Aws",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBankstown%20Airport%20Aws/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Canberra",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCanberra",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCanberra/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Coffs Harbour Mo",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCoffs%20Harbour%20Mo",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCoffs%20Harbour%20Mo/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Cooma",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCooma",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCooma/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Camden Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCamden%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCamden%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Dubbo",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDubbo",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDubbo/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Norfolk Island Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesNorfolk%20Island%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesNorfolk%20Island%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Nowra Ran Air Station",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesNowra%20Ran%20Air%20Station",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesNowra%20Ran%20Air%20Station/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Richmond Aus-Afb",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesRichmond%20Aus-Afb",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesRichmond%20Aus-Afb/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Sydney Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesSydney%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesSydney%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Tamworth Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTamworth%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTamworth%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Wagga Airport",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWagga%20Airport",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWagga%20Airport/weather",
+        "method": "GET"
+      }
+    ]
+  },
+  {
+    "city": "Williamtown Aerodrome",
+    "country": "Australia",
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWilliamtown%20Aerodrome",
+        "method": "GET"
+      },
+      {
+        "rel": "weather",
+        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWilliamtown%20Aerodrome/weather",
+        "method": "GET"
+      }
+    ]
+  }
+]

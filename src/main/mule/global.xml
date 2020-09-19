@@ -1,15 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<mule xmlns:http="http://www.mulesoft.org/schema/mule/http" xmlns:wsc="http://www.mulesoft.org/schema/mule/wsc"
-	xmlns="http://www.mulesoft.org/schema/mule/core"
-	xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
+<mule xmlns:ee="http://www.mulesoft.org/schema/mule/ee/core" xmlns:http="http://www.mulesoft.org/schema/mule/http"
+	xmlns:wsc="http://www.mulesoft.org/schema/mule/wsc"
+	xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd
 http://www.mulesoft.org/schema/mule/wsc http://www.mulesoft.org/schema/mule/wsc/current/mule-wsc.xsd
-http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd">
+http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
+http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<configuration-properties doc:name="Configuration properties" doc:id="9b34616e-1a8e-47ac-ae48-78b5335b2f7f" file="config.yaml" />
 	<wsc:config name="Weather_Service_Consumer_Config" doc:name="Web Service Consumer Config" doc:id="873e3e99-e990-42be-b1c8-6285ac2910fb" >
-		<wsc:connection wsdlLocation="${weather.wsdl}" service="${weather.service}" port="${weather.port}"/>
+		<wsc:connection wsdlLocation="${weather.wsdl}" service="${weather.service}" port="${weather.port}">
+			<wsc:custom-transport-configuration >
+				<wsc:default-http-transport-configuration timeout="30000" />
+			</wsc:custom-transport-configuration>
+		</wsc:connection>
 	</wsc:config>
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="43caf1d3-8a58-43f3-a369-b37f59e0ca86" >
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
+	<configuration doc:name="Configuration" doc:id="2e001af4-95b4-44ed-a725-70421e4272be" defaultErrorHandler-ref="globalError_Handler" />
+	<error-handler name="globalError_Handler" doc:id="d78d1c45-c8c8-44ee-8110-f4c64ad604d4" >
+		<on-error-continue enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="c253effd-ee9c-4e2a-81c2-7b2169c574af" type="WSC:CONNECTIVITY, WSC:INVALID_WSDL">
+			<ee:transform doc:name="set connectivity error message" doc:id="e98d4ff3-811e-472e-acc1-e50e81cbab43" >
+				<ee:message >
+					<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	"message": "Weather web service is unavailable. Please try again later." ++ error.description as String
+}]]></ee:set-payload>
+				</ee:message>
+			</ee:transform>
+			<set-variable value="500" doc:name="Set httpStatus code" doc:id="797c7ee7-9456-4302-b0a8-dcc6ac1408ea" variableName="httpStatus"/>
+		</on-error-continue>
+		<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="1892703c-316a-4539-8a2a-67782bcc641a" type="MULE:EXPRESSION">
+			<ee:transform doc:name="set transformation error message" doc:id="62467dbd-55dc-477a-aa6b-d284c8a57493" >
+				<ee:message >
+					<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	"message": "Error while transforming data: " ++ error.description as String
+}]]></ee:set-payload>
+				</ee:message>
+			</ee:transform>
+			<set-variable value="500" doc:name="Set httpsStatus code" doc:id="1c5ac19d-9835-4b1d-a0f8-7f0eb69d71f1" variableName="httpStatus"/>
+		</on-error-propagate>
+		<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="919e2726-3430-4955-a065-7f870dfe5046" type="VALIDATION:BLANK_STRING">
+			<ee:transform doc:name="set validation error message" doc:id="258b31b8-f7ad-48ae-b0a0-d38bcc582b62" >
+				<ee:message >
+					<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{"message": "Required query parameter is blank"}]]></ee:set-payload>
+				</ee:message>
+			</ee:transform>
+			<set-variable value="400" doc:name="Set httpStatus code" doc:id="5c38e884-747b-49eb-9466-02342a4aa72b" variableName="httpStatus"/>
+		</on-error-propagate>
+		<on-error-propagate enableNotifications="true" logException="true" doc:name="On Error Propagate" doc:id="d91b0216-f8d0-45cc-84af-0f440dde9eaa" type="ANY">
+			<ee:transform doc:name="set generic error message" doc:id="e21aaf1e-aba4-47bf-853c-4e6fd7f381b5" >
+				<ee:message >
+					<ee:set-payload ><![CDATA[%dw 2.0
+output application/json
+---
+{
+	"message": error.description as String
+}
+]]></ee:set-payload>
+				</ee:message>
+			</ee:transform>
+			<set-variable value="500" doc:name="Set httpStatus code" doc:id="a5b7fc43-b542-4ded-8947-40d77dd2a4ff" variableName="httpStatus"/>
+		</on-error-propagate>
+		
+	</error-handler>
 </mule>

@@ -29,4 +29,4 @@ There are three main flows as part of the implementation:
 - implementation flow which implements the two API endpoints 
 - global flow which has all global elements configurations and the global exception handler
 
-There is a number of MUnits that test both successful scenarios as well as exception uses cases and error handling.
+MUnits have been created to test both successful scenarios as well as exception uses cases and error handling.
