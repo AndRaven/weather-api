@@ -42,13 +42,13 @@ xmlInput.NewDataSet.*Table map ( item , indexOfItem ) -> {
 	[
 		{
 			rel: "self",
-			href: encodeURI(p('application.url') ++ "/cities" ++ item.City),
+			href: encodeURI(p('application.url') ++ "/cities/" ++ item.City),
 			method: "GET"
 			
 		},
 		{
 			rel: "weather",
-			href: encodeURI(p('application.url') ++ "/cities" ++ item.City ++ "/weather"),
+			href: encodeURI(p('application.url') ++ "/cities/" ++ item.City ++ "/weather"),
 			method: "GET"
 		}
 	]

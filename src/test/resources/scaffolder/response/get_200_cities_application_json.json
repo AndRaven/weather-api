@@ -5,12 +5,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesArcherfield%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Archerfield%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesArcherfield%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Archerfield%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -21,12 +21,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAmberley%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Amberley%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAmberley%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Amberley%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -37,12 +37,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlice%20Springs%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Alice%20Springs%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlice%20Springs%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Alice%20Springs%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -53,12 +53,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBrisbane%20Airport%20M.%20O",
+        "href": "http://localhost:8081/api/cities/Brisbane%20Airport%20M.%20O",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBrisbane%20Airport%20M.%20O/weather",
+        "href": "http://localhost:8081/api/cities/Brisbane%20Airport%20M.%20O/weather",
         "method": "GET"
       }
     ]
@@ -69,12 +69,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCoolangatta%20Airport%20Aws",
+        "href": "http://localhost:8081/api/cities/Coolangatta%20Airport%20Aws",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCoolangatta%20Airport%20Aws/weather",
+        "href": "http://localhost:8081/api/cities/Coolangatta%20Airport%20Aws/weather",
         "method": "GET"
       }
     ]
@@ -85,12 +85,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCairns%20Airport",
+        "href": "http://localhost:8081/api/cities/Cairns%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCairns%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Cairns%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -101,12 +101,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCharleville%20Airport",
+        "href": "http://localhost:8081/api/cities/Charleville%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCharleville%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Charleville%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -117,12 +117,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGladstone",
+        "href": "http://localhost:8081/api/cities/Gladstone",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGladstone/weather",
+        "href": "http://localhost:8081/api/cities/Gladstone/weather",
         "method": "GET"
       }
     ]
@@ -133,12 +133,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLongreach%20Airport",
+        "href": "http://localhost:8081/api/cities/Longreach%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLongreach%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Longreach%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -149,12 +149,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMount%20Isa%20Amo",
+        "href": "http://localhost:8081/api/cities/Mount%20Isa%20Amo",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMount%20Isa%20Amo/weather",
+        "href": "http://localhost:8081/api/cities/Mount%20Isa%20Amo/weather",
         "method": "GET"
       }
     ]
@@ -165,12 +165,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMackay%20Mo",
+        "href": "http://localhost:8081/api/cities/Mackay%20Mo",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMackay%20Mo/weather",
+        "href": "http://localhost:8081/api/cities/Mackay%20Mo/weather",
         "method": "GET"
       }
     ]
@@ -181,12 +181,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesOakey%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Oakey%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesOakey%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Oakey%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -197,12 +197,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesProserpine%20Airport",
+        "href": "http://localhost:8081/api/cities/Proserpine%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesProserpine%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Proserpine%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -213,12 +213,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesRockhampton%20Airport",
+        "href": "http://localhost:8081/api/cities/Rockhampton%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesRockhampton%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Rockhampton%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -229,12 +229,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBroome%20Airport",
+        "href": "http://localhost:8081/api/cities/Broome%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBroome%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Broome%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -245,12 +245,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTownsville%20Amo",
+        "href": "http://localhost:8081/api/cities/Townsville%20Amo",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTownsville%20Amo/weather",
+        "href": "http://localhost:8081/api/cities/Townsville%20Amo/weather",
         "method": "GET"
       }
     ]
@@ -261,12 +261,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWeipa%20City",
+        "href": "http://localhost:8081/api/cities/Weipa%20City",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWeipa%20City/weather",
+        "href": "http://localhost:8081/api/cities/Weipa%20City/weather",
         "method": "GET"
       }
     ]
@@ -277,12 +277,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGove%20Airport",
+        "href": "http://localhost:8081/api/cities/Gove%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGove%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Gove%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -293,12 +293,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTennant%20Creek%20Airport",
+        "href": "http://localhost:8081/api/cities/Tennant%20Creek%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTennant%20Creek%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Tennant%20Creek%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -309,12 +309,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesYulara%20Aws",
+        "href": "http://localhost:8081/api/cities/Yulara%20Aws",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesYulara%20Aws/weather",
+        "href": "http://localhost:8081/api/cities/Yulara%20Aws/weather",
         "method": "GET"
       }
     ]
@@ -325,12 +325,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlbury%20Airport",
+        "href": "http://localhost:8081/api/cities/Albury%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlbury%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Albury%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -341,12 +341,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDevonport%20East",
+        "href": "http://localhost:8081/api/cities/Devonport%20East",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDevonport%20East/weather",
+        "href": "http://localhost:8081/api/cities/Devonport%20East/weather",
         "method": "GET"
       }
     ]
@@ -357,12 +357,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGoldstream%20Aws",
+        "href": "http://localhost:8081/api/cities/Goldstream%20Aws",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGoldstream%20Aws/weather",
+        "href": "http://localhost:8081/api/cities/Goldstream%20Aws/weather",
         "method": "GET"
       }
     ]
@@ -373,12 +373,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesEast%20Sale%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/East%20Sale%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesEast%20Sale%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/East%20Sale%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -389,12 +389,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesHobart%20Airport",
+        "href": "http://localhost:8081/api/cities/Hobart%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesHobart%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Hobart%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -405,12 +405,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLaunceston%20Airport",
+        "href": "http://localhost:8081/api/cities/Launceston%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLaunceston%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Launceston%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -421,12 +421,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLaverton%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Laverton%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLaverton%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Laverton%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -437,12 +437,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMoorabbin%20Airport%20Aws",
+        "href": "http://localhost:8081/api/cities/Moorabbin%20Airport%20Aws",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMoorabbin%20Airport%20Aws/weather",
+        "href": "http://localhost:8081/api/cities/Moorabbin%20Airport%20Aws/weather",
         "method": "GET"
       }
     ]
@@ -453,12 +453,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMount%20Gambier%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Mount%20Gambier%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMount%20Gambier%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Mount%20Gambier%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -469,12 +469,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMildura%20Airport",
+        "href": "http://localhost:8081/api/cities/Mildura%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMildura%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Mildura%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -485,12 +485,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMelbourne%20Airport",
+        "href": "http://localhost:8081/api/cities/Melbourne%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMelbourne%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Melbourne%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -501,12 +501,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMacquarie%20Island",
+        "href": "http://localhost:8081/api/cities/Macquarie%20Island",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMacquarie%20Island/weather",
+        "href": "http://localhost:8081/api/cities/Macquarie%20Island/weather",
         "method": "GET"
       }
     ]
@@ -517,12 +517,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWynyard%20West",
+        "href": "http://localhost:8081/api/cities/Wynyard%20West",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWynyard%20West/weather",
+        "href": "http://localhost:8081/api/cities/Wynyard%20West/weather",
         "method": "GET"
       }
     ]
@@ -533,12 +533,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAdelaide%20Airport",
+        "href": "http://localhost:8081/api/cities/Adelaide%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAdelaide%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Adelaide%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -549,12 +549,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlbany%20Airport",
+        "href": "http://localhost:8081/api/cities/Albany%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesAlbany%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Albany%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -565,12 +565,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBroken%20Hill%20Patton%20Street",
+        "href": "http://localhost:8081/api/cities/Broken%20Hill%20Patton%20Street",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBroken%20Hill%20Patton%20Street/weather",
+        "href": "http://localhost:8081/api/cities/Broken%20Hill%20Patton%20Street/weather",
         "method": "GET"
       }
     ]
@@ -581,12 +581,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCeduna%20Airport",
+        "href": "http://localhost:8081/api/cities/Ceduna%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCeduna%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Ceduna%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -597,12 +597,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDerby",
+        "href": "http://localhost:8081/api/cities/Derby",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDerby/weather",
+        "href": "http://localhost:8081/api/cities/Derby/weather",
         "method": "GET"
       }
     ]
@@ -613,12 +613,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDarwin%20Airport",
+        "href": "http://localhost:8081/api/cities/Darwin%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDarwin%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Darwin%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -629,12 +629,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBullsbrook%20Pearce%20Amo",
+        "href": "http://localhost:8081/api/cities/Bullsbrook%20Pearce%20Amo",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBullsbrook%20Pearce%20Amo/weather",
+        "href": "http://localhost:8081/api/cities/Bullsbrook%20Pearce%20Amo/weather",
         "method": "GET"
       }
     ]
@@ -645,12 +645,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesEdinburgh%20M.%20O.",
+        "href": "http://localhost:8081/api/cities/Edinburgh%20M.%20O.",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesEdinburgh%20M.%20O./weather",
+        "href": "http://localhost:8081/api/cities/Edinburgh%20M.%20O./weather",
         "method": "GET"
       }
     ]
@@ -661,12 +661,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesForrest%20Airport",
+        "href": "http://localhost:8081/api/cities/Forrest%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesForrest%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Forrest%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -677,12 +677,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGeraldton%20Airport",
+        "href": "http://localhost:8081/api/cities/Geraldton%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesGeraldton%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Geraldton%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -693,12 +693,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKalgoorlie%20Boulder%20Amo",
+        "href": "http://localhost:8081/api/cities/Kalgoorlie%20Boulder%20Amo",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKalgoorlie%20Boulder%20Amo/weather",
+        "href": "http://localhost:8081/api/cities/Kalgoorlie%20Boulder%20Amo/weather",
         "method": "GET"
       }
     ]
@@ -709,12 +709,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKununurra%20Kununurra%20Aws",
+        "href": "http://localhost:8081/api/cities/Kununurra%20Kununurra%20Aws",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKununurra%20Kununurra%20Aws/weather",
+        "href": "http://localhost:8081/api/cities/Kununurra%20Kununurra%20Aws/weather",
         "method": "GET"
       }
     ]
@@ -725,12 +725,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLeigh%20Creek%20Airport",
+        "href": "http://localhost:8081/api/cities/Leigh%20Creek%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLeigh%20Creek%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Leigh%20Creek%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -741,12 +741,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLearmonth%20Airport",
+        "href": "http://localhost:8081/api/cities/Learmonth%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesLearmonth%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Learmonth%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -757,12 +757,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMeekatharra%20Airport",
+        "href": "http://localhost:8081/api/cities/Meekatharra%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesMeekatharra%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Meekatharra%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -773,12 +773,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesPort%20Hedland%20Pardoo",
+        "href": "http://localhost:8081/api/cities/Port%20Hedland%20Pardoo",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesPort%20Hedland%20Pardoo/weather",
+        "href": "http://localhost:8081/api/cities/Port%20Hedland%20Pardoo/weather",
         "method": "GET"
       }
     ]
@@ -789,12 +789,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesParafield%20Airport",
+        "href": "http://localhost:8081/api/cities/Parafield%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesParafield%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Parafield%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -805,12 +805,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBelmont%20Perth%20Airport",
+        "href": "http://localhost:8081/api/cities/Belmont%20Perth%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBelmont%20Perth%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Belmont%20Perth%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -821,12 +821,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKatherine%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Katherine%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesKatherine%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Katherine%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -837,12 +837,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWoomera%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Woomera%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWoomera%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Woomera%20Aerodrome/weather",
         "method": "GET"
       }
     ]
@@ -853,12 +853,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBankstown%20Airport%20Aws",
+        "href": "http://localhost:8081/api/cities/Bankstown%20Airport%20Aws",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesBankstown%20Airport%20Aws/weather",
+        "href": "http://localhost:8081/api/cities/Bankstown%20Airport%20Aws/weather",
         "method": "GET"
       }
     ]
@@ -869,12 +869,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCanberra",
+        "href": "http://localhost:8081/api/cities/Canberra",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCanberra/weather",
+        "href": "http://localhost:8081/api/cities/Canberra/weather",
         "method": "GET"
       }
     ]
@@ -885,12 +885,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCoffs%20Harbour%20Mo",
+        "href": "http://localhost:8081/api/cities/Coffs%20Harbour%20Mo",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCoffs%20Harbour%20Mo/weather",
+        "href": "http://localhost:8081/api/cities/Coffs%20Harbour%20Mo/weather",
         "method": "GET"
       }
     ]
@@ -901,12 +901,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCooma",
+        "href": "http://localhost:8081/api/cities/Cooma",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCooma/weather",
+        "href": "http://localhost:8081/api/cities/Cooma/weather",
         "method": "GET"
       }
     ]
@@ -917,12 +917,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCamden%20Airport",
+        "href": "http://localhost:8081/api/cities/Camden%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesCamden%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Camden%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -933,12 +933,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDubbo",
+        "href": "http://localhost:8081/api/cities/Dubbo",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesDubbo/weather",
+        "href": "http://localhost:8081/api/cities/Dubbo/weather",
         "method": "GET"
       }
     ]
@@ -949,12 +949,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesNorfolk%20Island%20Airport",
+        "href": "http://localhost:8081/api/cities/Norfolk%20Island%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesNorfolk%20Island%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Norfolk%20Island%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -965,12 +965,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesNowra%20Ran%20Air%20Station",
+        "href": "http://localhost:8081/api/cities/Nowra%20Ran%20Air%20Station",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesNowra%20Ran%20Air%20Station/weather",
+        "href": "http://localhost:8081/api/cities/Nowra%20Ran%20Air%20Station/weather",
         "method": "GET"
       }
     ]
@@ -981,12 +981,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesRichmond%20Aus-Afb",
+        "href": "http://localhost:8081/api/cities/Richmond%20Aus-Afb",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesRichmond%20Aus-Afb/weather",
+        "href": "http://localhost:8081/api/cities/Richmond%20Aus-Afb/weather",
         "method": "GET"
       }
     ]
@@ -997,12 +997,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesSydney%20Airport",
+        "href": "http://localhost:8081/api/cities/Sydney%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesSydney%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Sydney%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -1013,12 +1013,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTamworth%20Airport",
+        "href": "http://localhost:8081/api/cities/Tamworth%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesTamworth%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Tamworth%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -1029,12 +1029,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWagga%20Airport",
+        "href": "http://localhost:8081/api/cities/Wagga%20Airport",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWagga%20Airport/weather",
+        "href": "http://localhost:8081/api/cities/Wagga%20Airport/weather",
         "method": "GET"
       }
     ]
@@ -1045,12 +1045,12 @@
     "links": [
       {
         "rel": "self",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWilliamtown%20Aerodrome",
+        "href": "http://localhost:8081/api/cities/Williamtown%20Aerodrome",
         "method": "GET"
       },
       {
         "rel": "weather",
-        "href": "https://weather-api-development.cloudhub.io/api/v1/citiesWilliamtown%20Aerodrome/weather",
+        "href": "http://localhost:8081/api/cities/Williamtown%20Aerodrome/weather",
         "method": "GET"
       }
     ]
