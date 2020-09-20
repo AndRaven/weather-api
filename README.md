@@ -9,7 +9,7 @@ The API provides the following endpoints:
 | Endpoint | Method | Description |
 | :-- | :-: | :-- |
 | http://localhost:8081/api/cities?country=Australia | GET | Returns a JSON response with all the major cities in a country (in this case Australia). Query parameter 'country' is required|
-| http://localhost:8081/api/cities/Melbourne/weather?country=Australia | GET | Returns a JSON response with the weather information for a selected city. The required query parameter 'country' is used to insured only once city is returned in case there are multiple cities with the same name in different countries. |
+| http://localhost:8081/api/cities/Melbourne/weather?country=Australia | GET | Returns a JSON response with the weather information for a selected city. The required query parameter 'country' is used to insure only one city is returned in case there are multiple cities with the same name in different countries. |
 
 The application uses the SOAP webservice mock provided with the challenge (node server running locally).
 The WSDL can be found in the config.yaml file: http://localhost:8080/GlobalWeather?wsdl
